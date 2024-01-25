@@ -30,17 +30,6 @@
   cursor: pointer;
 }
 
-.btn::before {
-  content: '';
-  background-image: url(../SVG/arrow-left.svg);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 10px;
-  top: 122px;
-}
-
 .btnList {
   list-style: none;
   display: flex;
@@ -58,16 +47,6 @@
   border-radius: 7px;
 }
 
-.castBtn::before {
-  content: '';
-  background-image: url(../SVG/user.svg);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 25px;
-}
-
 .castBtn:hover {
   background-color: #126b18dc;
   cursor: pointer;
@@ -83,17 +62,6 @@
   color: #fff;
   border-radius: 7px;
   margin-left: 15px;
-}
-
-.reviewsBtn::before {
-  content: '';
-  background-image: url(../SVG/book-alt2.svg);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 15px;
-  top: 10px;
 }
 
 .reviewsBtn:hover {
@@ -115,3 +83,4 @@
   transition: 0.5s;
   top: 0;
   left: 0;
+}

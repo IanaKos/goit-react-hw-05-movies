@@ -2,6 +2,7 @@ import { useParams, Link, Outlet, useLocation } from 'react-router-dom';
 import { useState, useEffect, Suspense } from 'react';
 import { getMovieDetails } from '../../services/api';
 import css from './movieDetails.module.css';
+import noMovieImg from '../../img/not-available.png';
 import { MagnifyingGlass } from 'react-loader-spinner';
 
 const MovieDetails = () => {
